@@ -13,7 +13,7 @@
 
 .main_container {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
     gap: 5px;
     height: 100vh;
 }
@@ -21,9 +21,25 @@
 .row_container1 {
     display: flex;
     justify-content: center;
-    margin: auto;
+    width: 100%;
+    height: 350px;
+    background-color: aqua;
+}
+
+.row_container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     height: 100%;
+    background-color: rgb(0, 175, 175);
+}
+
+.row_container3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
     background-color: aqua;
 }
 
@@ -68,27 +84,114 @@
     border-radius: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-main {
+.mainRow1 {
+    margin: auto;
+    margin-top: 20px;
+    width: 87%;
+    display: flex;
+    justify-content: space-around;
     background-color: blueviolet;
 }
 
-footer {
-    background-color: brown;
+.mainRow2 {
+    margin: auto;
+    margin-top: 20px;
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
 }
+
+.footerRow1 {
+    margin: auto;
+    width: 87%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.portfolio, .contact {
+    margin-left: 65px;
+}
+
+.aboutMe, .portfolio, .contact {
+    width: 40%;
+    background-color: aliceblue;
+}
+
+.aboutMe h3, .portfolio h3, .contact h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.aboutMe p, .portfolio p {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.aboutMe span {
+    font-weight: 700;
+    font-size: 35px;
+    font-family: "Oswald", sans-serif;
+}
+
+.tempImg1, .tempImg2 {
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+.reels {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.movs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    width: 700px;
+    height: 350px;
+    background-color: aqua;
+}
+
+.descriptions {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    width: 700px;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
