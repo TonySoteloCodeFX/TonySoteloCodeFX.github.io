@@ -105,6 +105,13 @@ body {
     height: 50px;
     border: 2px solid aliceblue;
     border-radius: 10px;
+    background-color: #011D41;
+    transition: background-color 0.3s ease;
+}
+
+.view_work_button:hover {
+    background-color: #1abc9c;
+    color: #fff;
 }
 
 .mainRow1 {
@@ -250,6 +257,12 @@ body {
     top: 5px;
     padding-right: 10px;
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(180deg) brightness(110%) contrast(95%);
+    transition-duration: 0.3s;
+}
+
+.social_icon:hover, .resume_icon:hover {
+    filter: brightness(0) saturate(100%) invert(18%) sepia(91%) saturate(7482%) hue-rotate(0deg) brightness(101%) contrast(101%);
+
 }
 
 .social_videos, .image {
