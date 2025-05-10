@@ -110,6 +110,44 @@ body {
     align-items: start;
     width: 50%;
     height: auto;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
 }
 
+.languages {
+    width: 85%;
+    background-color: #00a2ff;
+}
+
+.language1 {
+    display: flex;
+    background-color: #1abc9c;
+}
+
+.english {
+    width: 50%;
+    background-color: blueviolet;
+}
+
+.english-score {
+    width: 50%;
+    background-color: red;
+}
+
+.progress-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 30px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  transition: width 0.3s ease-in-out;
+}
