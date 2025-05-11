@@ -95,6 +95,10 @@ body {
     /* background-color: red; */
 }
 
+.contact-info * {
+    margin-top: 10px;
+}
+
 .left-section h3, .right-section h3 {
     font-size: 30px;
     font-family: "Oswald", sans-serif;
@@ -110,30 +114,31 @@ body {
     align-items: start;
     width: 50%;
     height: auto;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
-.languages {
+.skills, .languages {
     width: 85%;
-    background-color: #00a2ff;
+    /* background-color: #00a2ff; */
 }
 
-.language1 {
+.skill1, .skill2, .skill3, .skill4, .skill5, .skill6, .skill7, .skill8, .language1, .language2 {
     display: flex;
-    background-color: #1abc9c;
+    margin-top: 10px;
+    /* background-color: #1abc9c; */
 }
 
-.english {
+.after-effects, .premiere, .photoshop, .illustrator, .maya, .blender, .unreal, .unity, .english, .spanish {
     width: 50%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
-.english-score {
+.after-effects-score, .premiere-score, .photoshop-score, .illustrator-score, .maya-score, .blender-score, .unreal-score, .unity-score, .english-score, .spanish-score {
     width: 50%;
-    background-color: red;
+    /* background-color: red; */
 }
 
-.progress-container {
+.af-progress-container, .pr-progress-container, .ps-progress-container, .ai-progress-container, .maya-progress-container, .bl-progress-container, .unreal-progress-container, .unity-progress-container, .en-progress-container, .sp-progress-container {
   width: 100%;
   background-color: #e0e0e0;
   border-radius: 25px;
@@ -142,7 +147,7 @@ body {
   box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
 }
 
-.progress-bar {
+.af-progress-bar, .pr-progress-bar, .ps-progress-bar, .ai-progress-bar, .maya-progress-bar, .bl-progress-bar, .unreal-progress-bar, .unity-progress-bar, .en-progress-bar, .sp-progress-bar {
   height: 100%;
   background-color: #4caf50;
   color: white;
@@ -150,4 +155,17 @@ body {
   line-height: 30px;
   font-weight: bold;
   transition: width 0.3s ease-in-out;
+}
+
+.coding-temple, .lafilm {
+    font-weight: 900;
+}
+
+.coding-temple-edu, .lafilm-edu {
+    margin-top: 10px;
+}
+
+.temple-cert, .lafilm-cert {
+    font-size: 15px;
+    font-style: italic;
 }
