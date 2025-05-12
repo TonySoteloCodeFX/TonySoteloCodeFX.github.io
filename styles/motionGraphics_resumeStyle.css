@@ -159,6 +159,7 @@ body {
 
 .coding-temple, .lafilm {
     font-weight: 900;
+    font-style: italic;
 }
 
 .coding-temple-edu, .lafilm-edu {
@@ -167,5 +168,4 @@ body {
 
 .temple-cert, .lafilm-cert {
     font-size: 15px;
-    font-style: italic;
 }
