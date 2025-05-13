@@ -12,11 +12,9 @@
 }
 
 body {
-    /* background-color: #003d8d; */
-    background-image: url(/images/video\ editing/bg_Socialv3.png);
+    background-image: url(/images/vfx/Compositing_Reel_2025_IMG.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-blend-mode: multiply; */
 }
 
 .main_container {
@@ -83,7 +81,6 @@ body {
     color: aliceblue;
     display: flex;
     justify-content: center;
-    /* gap: 100px; */
     width: 100%;
     height: auto;
     margin-top: 50px;
@@ -194,4 +191,8 @@ body {
 
 .experience {
     margin-bottom: 50px;
+}
+
+.main_container {
+    background-color: #00a2ff;
 }
