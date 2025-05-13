@@ -1,0 +1,293 @@
+/* <weight>: Use a value from 100 to 900 */
+/* font-family: "Roboto", sans-serif; */
+
+
+/* <weight>: Use a value from 200 to 700 */
+/* font-family: "Oswald", sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #011D41;
+    /* background-color: #025BC9; */
+}
+
+.main_container {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 5px;
+    height: 100%;
+    background-color: rgba(0, 50, 107, 0.8);
+}
+
+.row_container1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    /* background-color: aqua; */
+}
+
+.row_container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(0, 175, 175); */
+}
+
+.row_container3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.main_hero_video {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 2px 30px;
+    /* background-color: rgb(0, 255, 64); */
+}
+
+.hero_bg_video {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.main_hero_dark_layer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 70, 150, 0.95);
+}
+
+.main_hero_dark_layer p {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.view_work_button {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 160px;
+    height: 50px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    background-color: #011D41;
+    transition: background-color 0.3s ease;
+}
+
+.view_work_button:hover {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.mainRow1 {
+    margin: auto;
+    margin-top: 20px;
+    width: 87%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blueviolet; */
+}
+
+.mainRow2 {
+    margin: auto;
+    margin-top: 20px;
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+}
+
+.footerRow1 {
+    margin: auto;
+    margin-top: 40px;
+    width: 87%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+.portfolio, .contact {
+    margin-left: 65px;
+}
+
+.aboutMe, .portfolio, .contact {
+    width: 40%;
+    color: aliceblue;
+    /* background-color: rgb(25, 238, 78); */
+}
+
+.aboutMe h3, .portfolio h3, .contact h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.aboutMe p, .portfolio p {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.aboutMe span {
+    font-weight: 700;
+    font-size: 35px;
+    font-family: "Oswald", sans-serif;
+}
+
+.tempImg1, .tempImg2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 20px
+    /* background-color: blue; */
+}
+
+.reels {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+.movs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    width: 620px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 15px
+    /* background-color: aqua; */
+}
+
+.descriptions {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.desc {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 700px;
+    color: aliceblue;
+    /* background-color: aliceblue; */
+}
+
+.socials {
+    display: flex;
+}
+
+.info1 {
+    padding: 30px 0px 30px 70px;
+    width: 600px;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 50px;
+    color: aliceblue;
+    /* background-color:brown; */
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: aliceblue;
+    /* background-color: blueviolet; */
+}
+
+.info2 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.social_icon, .resume_icon {
+    position: relative;
+    top: 5px;
+    padding-right: 10px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(180deg) brightness(110%) contrast(95%);
+    transition-duration: 0.3s;
+}
+
+.social_icon:hover, .resume_icon:hover {
+    filter: brightness(0) saturate(100%) invert(18%) sepia(91%) saturate(7482%) hue-rotate(0deg) brightness(101%) contrast(101%);
+
+}
+
+.social_videos, .image {
+    border-radius: 20px;
+}
+
+body {
+    background-image: url(/images/vfx/Compositing_Reel_2025_IMGv4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

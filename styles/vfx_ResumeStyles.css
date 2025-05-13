@@ -12,9 +12,11 @@
 }
 
 body {
-    background-image: url(/images/vfx/Compositing_Reel_2025_IMG.png);
+    background-image: url(/images/vfx/Compositing_Reel_2025_IMGv4.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 50, 107, 0.8);
 }
 
 .main_container {
@@ -191,8 +193,4 @@ body {
 
 .experience {
     margin-bottom: 50px;
-}
-
-.main_container {
-    background-color: #00a2ff;
 }
